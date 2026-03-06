@@ -22,9 +22,7 @@ class TimesTwo{
 
 class TimesFour extends TimesTwo{
   TimesFour(
-    int number
-  ) : super (
-      number
+    super.number
   );
 
   //override 를 하기 위해선, @override를 먼저 작성한다.

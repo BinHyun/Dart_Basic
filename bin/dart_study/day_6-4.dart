@@ -25,22 +25,26 @@ void main(){
 
 //interface를 사용하기 위해선 implements 키워드를 사용
 class BoyGroup implements IdolInterface{
+  @override
   String name;
 
   BoyGroup(
     this.name
   );
+  @override
   void sayName(){
     print("저의 이름은 $name 입니다.");
   }
 }
 
 class GirlGroup implements IdolInterface{
+  @override
   String name;
 
   GirlGroup(
     this.name
   );
+  @override
   void sayName(){
     print("저의 이름은 $name 입니다.");
   }
